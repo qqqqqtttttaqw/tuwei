@@ -7,10 +7,10 @@ itchat.dump_login_status()
 # 保存土味情话前后句
 qa = []
 #设置发送土味情话的对象 匹配昵称 备注任一即可
-send_userid='王武杰'
+send_userid='未来富婆'
 user_name = itchat.search_friends(name=send_userid)[0]['UserName']
 # 第一句开场白
-greet = "土味五姐正式上线"
+greet = "土味其其正式上线"
 # 发送开场白
 itchat.send(greet,user_name)
 # 设置再次发送土味的标志
